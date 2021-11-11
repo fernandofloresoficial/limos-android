@@ -1,0 +1,445 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Limos</string>
+
+    <!--- Menu -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!--- Títulos -->
+    <string name="titulo_activity_cardapio_categorias">Categorias</string>
+    <string name="titulo_activity_cardapio_produtos">Cardápio</string>
+    <string name="titulo_activity_carrinho">Carrinho</string>
+    <string name="titulo_activity_cashback_extrato">Extrato de Cashback</string>
+    <string name="titulo_activity_cupons">Cupons</string>
+    <string name="titulo_activity_cupons_resgatados">Meus Cupons</string>
+    <string name="titulo_activity_endereco_buscar">Buscar Endereço</string>
+    <string name="titulo_activity_endereco_cadastrado">Endereços</string>
+    <string name="titulo_activity_endereco_cep">Novo Endereço</string>
+    <string name="titulo_activity_endereco_cep_alterar">Alterar Endereço</string>
+    <string name="titulo_activity_endereco_novo">Novo Endereço</string>
+    <string name="titulo_activity_filtrar">Filtros</string>
+    <string name="titulo_activity_indicar_restaurante">Indicar Restaurantes</string>
+    <string name="titulo_activity_notificacao">Acompanhe seus pedidos</string>
+    <string name="titulo_activity_pedidos">Pedidos</string>
+    <string name="titulo_activity_pedidos_detalhes">Detalhes do pedido</string>
+    <string name="titulo_activity_privacidade">Política de privacidade</string>
+    <string name="titulo_activity_produto_adicionais">Adicionais</string>
+    <string name="titulo_activity_produto_observacoes">Observações</string>
+    <string name="titulo_activity_produto_opcionais">Opcionais</string>
+    <string name="titulo_activity_sobre">Sobre</string>
+    <string name="titulo_activity_termos">Termos de uso</string>
+    <string name="titulo_home">Home</string>
+    <string name="titulo_dashboard">Dashboard</string>
+    <string name="titulo_notifications">Notifications</string>
+
+    <!--- Com parametros -->
+    <string name="versao">Versão %1$s</string>
+    <string name="enderecocomcomplemento">%1$s, %2$s - %3$s \n%4$s, %5$s - %6$s</string>
+    <string name="enderecosemcomplemento">%1$s, %2$s \n%3$s, %4$s - %5$s</string>
+    <string name="enderecolistacomcomplemento">%1$s, %2$s - %3$s</string>
+    <string name="enderecolistasemcomplemento">%1$s, %2$s</string>
+    <string name="usarsaldocashback">Você tem %1$s de saldo de cashback, vamos usar?</string>
+    <string name="ganhebrinde">QUASE! Faça um pedido a partir de %1$s e ganhe um brinde</string>
+    <string name="ganhoubrinde">PARABÉNS! Você atingiu a faixa de %1$s reais e ganhou um brinde</string>
+    <string name="proximode">Próximo de %1$s</string>
+    <string name="valorpedidominimo">O pedido mínimo deste restaurante é %1$s</string>
+    <string name="saldocashback">Saldo cashback: %1$s</string>
+    <string name="seusaldocashback">Seu saldo de cashback é de %1$s</string>
+    <string name="errobuscarcep">Erro ao buscar o cep: %1$s</string>
+    <string name="boasvindas">Olá %1$s</string>
+    <string name="valorpedido">Valor do pedido %1$s</string>
+    <string name="valorfrete">Entrega: %1$s</string>
+    <string name="utilizandocashback">Você esta utilizando %1$s de cashback</string>
+    <string name="utilizandodesconto">Você esta utilizando %1$s de desconto</string>
+    <string name="trocopara">Troco para %1$s</string>
+    <string name="voceescolheu">Você escolheu %1$s</string>
+    <string name="errobuscarendereco">Erro ao buscar o endereço: %1$s</string>
+    <string name="percentual">%1$s</string>
+    <string name="preenchaocampo">Preencha o campo %1$s</string>
+    <string name="qtproduto">%1$dx</string>
+    <string name="complementoproduto">%1$s \n %2$s</string>
+    <string name="numeropedido">N° do pedido: %1$s</string>
+    <string name="datapedido">Data do pedido: %1$s</string>
+    <string name="formapagamentopedido">Forma de pagamento: %1$s</string>
+    <string name="statuspedido">Pedido %1$s</string>
+    <string name="necessariopermissao">É necessário a permissão %1$s para utilizar este recurso</string>
+    <string name="selecione">Selecione %1$s</string>
+    <string name="aguarde">Aguarde %1$s</string>
+    <string name="servepessoas">Serve %1$s pessoa(s)</string>
+    <string name="apartir">A partir de %1$s</string>
+    <string name="qtavaliacoes">%1$s avaliações</string>
+    <string name="maxopcionais">%1$d/%2$d</string>
+    <string name="escolhapelomenos">Escolha pelo menos %1$d opções</string>
+    <string name="escolhaate">Escolha até %1$d opções</string>
+    <string name="validoate">Valido até: %1$s</string>
+    <string name="precadastro">Falta pouco! Por favor, preencha os dados abaixo e, em seguida, clique em Cadastrar.</string>
+
+    <!--- Comum -->
+    <string name="avaliarpedido">Avaliar pedido</string>
+    <string name="telefoneinvalido">Número de telefone inválido</string>
+    <string name="cashbackzerado">Você tem R$0,00 de saldo de cashback.</string>
+    <string name="endereco">Endereço</string>
+    <string name="enderecopadrao">Endereço padrão</string>
+    <string name="bairro">Bairro</string>
+    <string name="estado">Estado</string>
+    <string name="cidade">Cidade</string>
+    <string name="numero">Número</string>
+    <string name="complemento">Complemento</string>
+    <string name="buscar">Buscar</string>
+    <string name="buscarcep">Buscar CEP</string>
+    <string name="buscarrestaurantes">Buscar restaurantes</string>
+    <string name="buscarrestaurantesdelivery">Buscar restaurantes para delivery</string>
+    <string name="buscarcardapio">Buscar no cardápio</string>
+    <string name="naoseicep">Não sei o CEP</string>
+    <string name="cep">CEP</string>
+    <string name="salvar">Salvar</string>
+    <string name="enviar">Enviar</string>
+    <string name="valorprodutos">Valor dos produtos</string>
+    <string name="adicionarmaisitens">Adicionar mais itens</string>
+    <string name="utilizar">Utilizar</string>
+    <string name="escolher">Escolher</string>
+    <string name="trocar">Trocar</string>
+    <string name="formapagamento">Forma de pagamento</string>
+    <string name="escolhabrinde">Escolha seu brinde</string>
+    <string name="escolhaformapagamento">Escolha a forma de pagamento</string>
+    <string name="escolhalocalentrega">Escolha o local de entrega</string>
+    <string name="informetelefone">Informe seu telefone</string>
+    <string name="enviarpedido">Enviar pedido</string>
+    <string name="semformapagamento">Não é necessário informar forma de pagamento</string>
+    <string name="revisarchashback">Favor revisar cashback utilizado</string>
+    <string name="revisartroco">Favor revisar seu troco</string>
+    <string name="enderecopadraonaoencontrado">Nenhum endereço padrão encontrado. Favor escolher outra opção</string>
+    <string name="naoconseguimoslocalizar">Não conseguimos te localizar</string>
+    <string name="cupomdesconto">Cupom de desconto</string>
+    <string name="nenhumcupomdesconto">Nenhum cupom disponível</string>
+    <string name="novoendereco">Novo endereço</string>
+    <string name="alterarendereco">Alterar endereço</string>
+    <string name="cadastradosucesso">Dados cadastrados com sucesso</string>
+    <string name="dadosinvalidos">Dados inválidos</string>
+    <string name="carregando">Carregando…</string>
+    <string name="termosservico">1. SERVIÇOS OFERECIDOS</string>
+    <string name="termoscadastro">2. CADASTRO</string>
+    <string name="termosuser">3. OBRIGAÇÕES DO USUÁRIO</string>
+    <string name="termoslimos">4. OBRIGAÇÕES DO LIMOS</string>
+    <string name="termosmodificacoes">5. MODIFICAÇÕES DESTE TERMO</string>
+    <string name="termoscomunicacao">6. CANAL DE COMUNICAÇÃO</string>
+    <string name="termosaceitacao">7. ACEITAÇÃO DO TERMO DE USO</string>
+    <string name="termosforo">8. FORO DE ELEIÇÃO</string>
+    <string name="entregagratis">Entrega Grátis</string>
+    <string name="carrinhocupomcom">Selecione o cupom de desconto que deseja aplicar neste pedido:</string>
+    <string name="carrinhocupomsem">Você não possui nenhum cupom válido</string>
+    <string name="naoentregabairro">Não entrega neste bairro</string>
+    <string name="naoentregaenredeco">O restaurante não entrega neste endereço</string>
+    <string name="cashbackmaiorsaldo">O valor utilizado de cashback não pode ser maior que o saldo</string>
+    <string name="cashbackmaiorpedido">O valor utilizado de cashback não pode ser maior que o valor do pedido</string>
+    <string name="dinheiro">Dinheiro</string>
+    <string name="cpfinvalido">CPF inválido</string>
+    <string name="cnpjinvalido">CNPJ inválido</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="retiradabalcao">Retirada no balcão</string>
+    <string name="cupominvalidohoje">Não é possível utilizar este cupom, pois ele não é valido para hoje</string>
+    <string name="semtroco">Sem troco</string>
+    <string name="precisatroco">Você vai precisar de troco?</string>
+    <string name="confirmacao">Confirmação</string>
+    <string name="removeritem">Tem certeza que deseja remover este item?</string>
+    <string name="remover">Remover</string>
+    <string name="erroremoveritem">Erro ao remover o item</string>
+    <string name="erro">Erro</string>
+    <string name="carrinhovazio">Seu carrinho esta vazio</string>
+    <string name="permissao">Permissão</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="proximo">Próximo</string>
+    <string name="saldo">Saldo:</string>
+    <string name="valorzero">R$0,00</string>
+    <string name="validadecupons">Cupons válidos para pedidos realizados pelo aplicativo nos dias informados até a data da validade.</string>
+    <string name="aproveitedesconto">Aproveite o seu desconto</string>
+    <string name="cepinvalido">CEP inválido</string>
+    <string name="titulotrocarendereco">Qual a sua localização?</string>
+    <string name="textotrocarendereco">Não importa onde você está, em casa, no shopping ou na praia, nós vamos te encontrar e matar a sua fome.</string>
+    <string name="usarenderecopadrao">Usar endereço padrão</string>
+    <string name="usarlocalizacao">Usar minha localização</string>
+    <string name="usarcadastrados">Meus endereços cadastrados</string>
+    <string name="inserirendereco">Inserir endereço</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="naoencontrourestaurante">Não encontrou o restaurante que você queria?</string>
+    <string name="indicado">Indicado</string>
+    <string name="pedidocancelado">Pedido cancelado</string>
+    <string name="detalhesavaliacao">Detalhes avaliação</string>
+    <string name="emailinvalido">Email inválido</string>
+    <string name="erroupload">Erro ao fazer upload</string>
+    <string name="itensadicionais">Itens adicionais</string>
+    <string name="restaurantefechado">O restaurante está fechado</string>
+    <string name="complementarpedido">Que tal complementar o seu pedido</string>
+    <string name="valoradicionais">Valor adicionais</string>
+    <string name="salvardicionais">salvar adicionais</string>
+    <string name="salvarobs">salvar observações</string>
+    <string name="vercardapio">Ver cardápio</string>
+    <string name="maisinformacoes">Mais informações</string>
+    <string name="veravaliacoes">VER AVALIAÇÕES</string>
+    <string name="fechado">Fechado</string>
+    <string name="horariofuncionamento">Horário de funcionamento</string>
+    <string name="obsproduto">Use esse espaço pra deixar alguma observação para cozinha</string>
+    <string name="exobs">Ex: Tirar alface, ponto da carne, maionese á parte etc…</string>
+    <string name="obrigatorio">OBRIGATÓRIO</string>
+    <string name="valorproduto">Valor produto</string>
+    <string name="escolhaumaopcao">Escolha 1 opção</string>
+    <string name="termosdeuso">Termos de uso</string>
+    <string name="politicaprivacidade">Política de privacidade</string>
+    <string name="vencido">Vencido</string>
+    <string name="resgatar">Resgatar</string>
+    <string name="desativado">Desativado</string>
+    <string name="resgatado">Resgatado</string>
+    <string name="observacoes">Observações</string>
+    <string name="adicionarcarrinho">Adicionar ao carrinho</string>
+    <string name="aplicarcupom">Aplicar cupom</string>
+    <string name="cashbackutilizado">Cashback utilizado</string>
+    <string name="sms">Não foi possível enviar o SMS</string>
+    <string name="senha">A senha precisa ter no minimo 6 digitos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--- Longos -->
+    <string name="regrascashback">
+        1 - Ao realizar um pedido pelo aplicativo você recebe 3% do valor do pedido de volta. Não incluso o frete. \n \n2 - Você poderá usar o seu saldo de cashback em novos pedidos \n \n3 - Os pedidos que você realizar usando o seu saldo de cashback não geram chashback
+    </string>
+
+    <string name="termosdeuso0">Por favor, leia com atenção os termos e condições.
+        Ao se cadastrar no www.limosapp.com.br você ESTÁ DE ACORDO COM AS CONDIÇÕES E TERMOS do app. Note que a recusa destes Termos do app impedirá que você faça pedidos de produtos do nosso app.
+    </string>
+
+    <string name="termosdeuso1">
+        1.1 Este TERMO se aplica para regular o uso do serviço oferecido pelo www.limosapp.com.br aos USUÁRIOS, qual seja, possibilitar a escolha, pelos USUÁRIOS, de RESTAURANTES cadastrados e, via on-line, efetivar solicitações para aquisição (e entrega em domicílio e retirada no local) de gêneros alimentícios fornecidos pelos RESTAURANTES, de acordo com o cardápio disponibilizado, sendo possível, igualmente, aos USUÁRIOS, a efetivação do pagamento do preço dos produtos via on-line. \n\n
+        1.2 O serviço do www.limosapp.com.br consiste, portanto, em aproximar, através do nosso site, os USUÁRIOS e os RESTAURANTES cadastrados, possibilitando que os USUÁRIOS encaminhem, aos RESTAURANTES, pedidos de entrega de gêneros alimentícios. \n\n
+        1.3 Desde logo fica esclarecido ao USUÁRIO - o qual se declara ciente - que o serviço oferecido pelo www.limosapp.com.br se relaciona apenas à intermediação para comercialização de produtos alimentícios, não abarcando preparo, embalagem, disponibilização e entrega física (via motoboy ou outros meios) dos produtos, sendo esses quatro itens de responsabilidade integral do RESTAURANTE, a quem deverão ser direcionados quaisquer reclamos acerca de problemas decorrentes de vício, defeito ou inexecução da feitura, preparo e entrega de produtos alimentícios.
+    </string>
+
+    <string name="termosdeuso2" tools:ignore="Typos">
+        2.1 O USUÁRIO, para utilizar os serviços acima descritos, deverá ter capacidade jurídica para atos civis e deverá, necessariamente, prestar as informações exigidas no CADASTRO, assumindo integralmente a responsabilidade (inclusive cível e criminal) pela exatidão e veracidade das informações fornecidas no CADASTRO, que poderá ser verificado, a qualquer momento, pelo www.limosapp.com.br. \n\n
+        2.1.1 Em caso de informações incorretas, inverídicas ou não confirmadas, bem assim na hipótese da negativa em corrigi-las ou enviar documentação que comprove a correção, o Limos Delivery se reserva o direito de não concluir o cadastramento em curso ou, ainda, de bloquear o cadastro já existente, impedindo o USUÁRIO de utilizar os serviços on-line até que, a critério do www.limosapp.com.br, a situação de anomalia esteja regularizada. O www.limosapp.com.br se reserva o direito de impedir, a seu critério, novos CADASTROS, ou cancelar os já efetuados, em caso de ser detectada anomalia que, em sua análise, seja revestida de gravidade ou demonstre tentativa deliberada de burlar as regras aqui descritas, obrigatórias para todos os USUÁRIOS. Também agirá o www.limosapp.com.br de tal forma caso verifique descumprimento, pelo USUÁRIO, de qualquer obrigação prevista no presente TERMO. \n\n
+        2.2 Efetuado, com sucesso, o CADASTRO, o USUÁRIO terá acesso aos serviços por meio de login e senha, dados esses que se compromete a não divulgar a terceiros, ficando sob sua exclusiva responsabilidade qualquer solicitação de serviço que seja feita com o uso de login e senha de sua titularidade.
+    </string>
+
+    <string name="termosdeuso3">
+        3.1 Efetuado com sucesso o CADASTRO do USUÁRIO, este se obriga a não divulgar a terceiros login e senha de acesso, nem permitir o uso de tais informações por terceiros, responsabilizando-se pelas consequências do uso de login e senha de sua titularidade. \n\n
+        3.2 É obrigação do USUÁRIO fornecer informações cadastrais totalmente verídicas e exatas, responsabilizando-se exclusiva e integralmente (em todas as searas jurídicas) por todo o conteúdo por si informado no item CADASTRO, mantendo atualizado e confirmado o endereço para entrega dos produtos encomendados. \n\n
+        3.3 O USUÁRIO se obriga, também, a pagar integralmente o preço dos produtos por si solicitados ou encomendados ao RESTAURANTE e efetivamente a si entregues, seja por qualquer outra forma, diretamente ao portador dos produtos encomendados por meio deste site (dinheiro, cheque, tickets, etc.). \n\n
+        3.4 O USUÁRIO que seja menor de 18 anos de idade está ciente de que não poderá encomendar e adquirir, em qualquer hipótese, produtos alcoólicos, responsabilizando-se pela correta informação de sua idade no item CADASTRO. \n\n
+        3.5 O USUÁRIO concorda com o uso das informações de avaliações e feedbacks do serviços dos RESTAURANTES e do Limos, conforme descrito nos TERMOS DE PRIVACIDADE do Limos.
+    </string>
+
+    <string name="termosdeuso4">
+        4.1 Disponibilizar no site www.limosapp.com.br espaço virtual que permita ao USUÁRIO devidamente cadastrado efetivar pedidos de compra de gêneros alimentícios anunciados e comercializados pelos RESTAURANTES. \n\n
+        4.2 Proteger, por meio de armazenamento em servidores ou quaisquer outros meios magnéticos de alta segurança, a confidencialidade de todas as informações e cadastros relativos aos USUÁRIOS, assim como valores atinentes às operações financeiras advindas da operacionalização dos serviços previstos no presente TERMO. Contudo, não responderá pela reparação de prejuízos que possam ser derivados de apreensão e cooptação de dados por parte de terceiros que, rompendo os sistemas de segurança, consigam acessar essas informações.
+    </string>
+
+    <string name="termosdeuso5">
+        5.1 O presente TERMO DE USO poderá, a qualquer tempo, ter seu conteúdo, ou parte dele, modificados para adequações e inserções, tudo com vistas ao aprimoramento dos serviços disponibilizados. \n\n
+        5.2 As novas condições entrarão em vigência assim que sua veiculada no site, sendo possível ao USUÁRIO manifestar oposição a quaisquer dos termos modificados, desde que o faça por escrito, através do site www.limosapp.com.br, o que gerará o cancelamento de seu CADASTRO.
+    </string>
+
+    <string name="termosdeuso6">
+        6.1 Para estabelecer contato entre www.limosapp.com.br e o USUÁRIO fica disponibilizado o endereço eletrônico deste link, sendo certo que o USUÁRIO se obriga, igualmente, a manter em seu cadastro endereço eletrônico atual por intermédio do qual se farão as comunicações a ele dirigidas pelo www.limosapp.com.br, desde logo emprestando-se validade jurídica e efetividade a esse meio eletrônico de troca de informações recíprocas.
+    </string>
+
+    <string name="termosdeuso7">
+        7.1 O USUÁRIO declara ter lido, entendido e que aceita todas as regras, condições e obrigações estabelecidas no presente TERMO.
+    </string>
+
+    <string name="termosdeuso8">
+        8.1 As partes elegem como competente para dirimir eventuais controvérsias que venham a surgir da interpretação e do cumprimento do presente TERMO o foro da Comarca de Indaiatuba - SP.\n\n
+        Última atualização: 21 de janeiro de 2019
+   </string>
+
+    <string name="privacidade0">Bem vindo ao Limos. Para que possamos oferecer um aplicativo melhor e mais
+        direcionado às suas preferências, processar eventuais pedidos e reclamações,
+        informá-lo sobre alterações relevantes em nossos serviços ou relacionadas às
+        suas demandas, compreender suas preferências nas escolhas efetuadas por
+        meio do aplicativo, sugerir promoções de acordo com seus critérios, de forma
+        a tornar seu uso mais próximo aos seus interesses, é importante contarmos
+        com suas informações, por isso, leia atentamente esta política e nosso Termo
+        de Uso.\n\n
+        Sua privacidade é nossa preocupação e por isso temos o compromisso de
+        preservá-la. Nossa política de privacidade visa assegurar a garantia de que,
+        quaisquer informações relativas aos usuários, não serão fornecidas, publicadas
+        ou comercializadas em quaisquer circunstâncias, ou seja, suas informações
+        estarão seguras conosco e não serão transmitidas a terceiros fora do Limos
+        App, exceto nas condições previstas pela presente política de privacidade,
+        precisamente no tocante à verificação de sua identidade para fins de
+        segurança, de forma a prevenir ou detectar crimes em desfavor do usuário ou
+        do próprio Limos App.\n\n
+        Nossa política de Privacidade explica como nós usamos, compartilhamos e
+        protegemos as informações em relação aos nossos serviços de telefonia móvel,
+        site ou qualquer software fornecido ou em conexão com os serviços do Limos
+        App.\n\n
+        Suas informações cadastrais serão disponibilizadas quando você efetua o seu
+        cadastro junto ao aplicativo.\n\n
+        Suas informações pessoais e seus dados sensíveis não serão transferidos a
+        terceiros.\n\n
+        Ao utilizar nossos serviços, você entende e concorda que estamos fornecendo
+        uma plataforma para que você possa efetuar pedidos de comida através do
+        seu smartphone.
+    </string>
+
+    <string name="privacidade1">As informações que nos são fornecidas diariamente, seu nome de usuário,
+        senha e endereço de e-mail quando você se cadastra para uma conta no Limos
+        App.\n\n
+        As comunicações entre você e o Limos App. Por exemplo, podemos lhe enviar
+        e-mails relacionados ao aplicativo, como por exemplo, verificação de conta,
+        as mudanças e atualizações de recursos do aplicativo.
+    </string>
+
+    <string name="privacidade2">Podemos utilizar ferramentas de análise de terceiros para nos ajudar a medir
+        as tendências de tráfego e utilização do aplicativo. Essas ferramentas coletam
+        informações enviadas pelo dispositivo ou pelo nosso aplicativo, incluindo as
+        páginas da web que você visita e outras informações que nos auxilia na
+        melhoria contínua do serviço oferecido.\n\n
+        Quando você visita o aplicativo, podemos usar cookies e outras tecnologias
+        semelhantes como pixels, web beacons e armazenamento local para coletar
+        informações sobre como você usa o Limos App e fornecer recursos para você.
+        Quando você usa nosso aplicativo, nossos servidores registram
+        automaticamente certas informações do arquivo de log, incluindo o seu
+        pedido web, endereço de Internet Protocol ("IP"), tipo de navegador,
+        referência / saída páginas e URLs, números de cliques e como você interage
+        com nomes de domínio, páginas, páginas vistas, e outras informações.
+        Poderemos também coletar informações semelhantes de e-mails enviados aos
+        nossos usuários que, em seguida, nos ajudam a controlar quais e-mails são
+        abertos e em quais links são clicados pelos destinatários. A informação
+        permite que relatórios mais precisos e de melhoria do serviço sejam
+        realizadas.\n\n
+        Quando você usa um dispositivo móvel como um tablet ou telefone para
+        acessar nosso aplicativo, podemos acessar, coletar, monitorar dados
+        armazenados no dispositivo, e / ou armazenar remotamente um ou mais
+        "identificadores de dispositivo." Identificadores de dispositivo são pequenos
+        arquivos de dados ou estruturas de dados semelhantes armazenados ou
+        associado ao dispositivo móvel, que identificam o seu dispositivo móvel.
+        Um identificador de dispositivo pode fornecer informações para nós ou para
+        um terceiro parceiro sobre como você navega e usa o aplicativo e pode nos
+        ajudar a fornecer relatórios, conteúdos personalizados ou anúncios
+        direcionados. Algumas características do aplicativo podem não funcionar
+        corretamente se o uso ou disponibilidade de identificadores de dispositivo é
+        prejudicado ou desativado.
+    </string>
+
+    <string name="privacidade3">Além de alguns dos usos específicos de informação que descrevemos nesta
+        política de privacidade, nós podemos utilizar as informações que recebemos
+        para as seguintes finalidades:\n\n
+        1. Ajudar você a acessar de forma eficiente suas informações depois
+        da criação de sua conta, uma vez que não terá que digitar
+        novamente suas informações durante sua visita ou da próxima vez
+        que utilizar o aplicativo;\n\n
+        2. Fornecer conteúdo personalizado e informações para você e
+        outras pessoas, que podem incluir anúncios on-line ou outras
+        formas de comercialização;\n\n
+        3. Fornecer, melhorar, testar e monitorar a eficácia dos nossos
+        serviços;\n\n
+        4. Desenvolver e testar novos produtos e recursos;\n\n
+        5. Monitorar indicadores como o número total de visitantes, tráfego
+        e padrões demográficos;\n\n
+        6. Diagnosticar ou corrigir problemas de tecnologia;
+    </string>
+
+    <string name="privacidade4" tools:ignore="Typos">Não será realizada a venda ou cessão de suas informações para terceiros, fora
+        do Limos App ou o grupo de empresas das quais Limos App é parte, sem o seu
+        consentimento, exceto como observado nesta Política e nas disposições a
+        seguir.\n\n
+        Partes com quem podemos compartilhar suas informações:\n\n
+        1. Podemos compartilhar conteúdo do usuário e suas informações
+        (incluindo, mas não limitado a, as informações dos cookies,
+        arquivos de log, identificadores de dispositivos, dados de
+        localização quando autorizados e dados de uso) com empresas que
+        são legalmente parte do mesmo grupo de empresas que o Limos
+        App faz parte, ou que se tornam parte desse grupo ("Afiliadas"). As
+        Afiliadas podem usar essas informações para ajudar a fornecer,
+        compreender e melhorar o aplicativo;\n\n
+        2. Poderemos também compartilhar suas informações, bem como
+        informações a partir de ferramentas como cookies, arquivos de log
+        e identificadores de dispositivos e dados de localização, com
+        organizações de terceiros que nos ajudam a fornecer o serviço
+        para você. Nossos provedores de serviços terão acesso às suas
+        informações, como é razoavelmente necessário para fornecer o
+        Serviço sob termos de confidencialidade razoáveis;\n\n
+        3. Nós também podemos compartilhar certas informações, como
+        dados de cookie com parceiros de publicidade de terceiros. Estas
+        informações permitirão que as redes de anúncios de terceiros,
+        entre outras coisas, ofereçam anúncios direcionados, que se
+        acredita ser de maior interesse para você;\n\n
+        4. Podemos remover partes de dados que podem identificá-lo e
+        compartilhar dados anônimos com outros parceiros. Podemos
+        também combinar as suas informações com outras informações de
+        uma forma que ele não está mais associado com você e
+        compartilhar essa informação agregada.\n\n
+        Na hipótese de venda ou cessão do Limos App, ou nossos ativos para outra
+        organização (por exemplo, no curso de uma operação como uma fusão,
+        aquisição, falência, dissolução ou liquidação), as suas informações, como nome
+        e endereço de e-mail, o usuário conteúdo e outras informações coletadas
+        através do Serviço pode estar entre os itens vendidos ou transferidos. Você vai
+        continuar a possuir o seu Conteúdo do Usuário. O comprador ou cessionário
+        terá de honrar os compromissos que assumimos na presente Política de
+        Privacidade.\n\n
+        Suas informações coletadas através do Serviço podem ser armazenadas e
+        processadas no Brasil ou em qualquer outro país no qual Limos App, suas
+        afiliadas ou provedores de serviços mantenham instalações.\n\n
+        Limos App, suas afiliadas, ou prestadores de serviços podem transferir
+        informações que coletamos sobre você, incluindo informações pessoais
+        através de fronteiras e de seu país ou jurisdição para outros países ou
+        jurisdições ao redor do mundo. Se você estiver localizado em uma região com
+        as leis que regem a coleta de dados e o uso que podem ser diferentes das leis
+        do BRASIL, por favor, note que nós poderemos transferir informações,
+        incluindo informações pessoais, para um país e jurisdição que não têm a
+        mesma proteção de dados e leis como a sua jurisdição.\n\n
+        Ao inscrever-se e utilizar o aplicativo, você concorda com a transferência de
+        informações para o Brasil ou para qualquer outro país no qual Limos App, suas
+        afiliadas ou provedores de serviços mantenham instalações e a utilização e
+        divulgação de informações sobre você, como descrito nesta Política de
+        Privacidade.\n\n
+        Nós não somos responsáveis pelas práticas empregadas por quaisquer sites ou
+        serviços ligados ao nosso serviço, incluindo a informação ou o conteúdo
+        contido dentro deles. Lembre-se que quando você usa uma ligação do nosso
+        Serviço para outro site ou serviço, nossa Política de Privacidade não se aplica
+        a esses sites ou serviços de terceiros. Sua navegação e interação em qualquer
+        site ou serviço, incluindo aqueles que têm um link no nosso site, de terceiros
+        estão sujeitas a normas e políticas próprias que terceiros. Além disso, você
+        concorda que nós não somos responsáveis e não temos controle sobre
+        quaisquer terceiros que você autorizar para acessar o seu Conteúdo do
+        Usuário. Se você estiver usando um site ou serviço de terceiros e você
+        permitir que eles acessem o conteúdo do usuário que você criou, você o faz por sua conta
+        e risco.
+    </string>
+
+    <string name="privacidade5" tools:ignore="Typos">Quando o usuário desrespeitar alguma regra de segurança ou exercer alguma
+        atividade prejudicial ao bom funcionamento do aplicativo, como por exemplo,
+        tentativas de hackear o serviço, o Limos App, para proteção e segurança do
+        aplicativo e dos demais usuários, pode adotar medidas para identificar o
+        usuário e coibir tais condutas ilícitas.\n\n
+        Como já informamos, para fins de segurança, as informações poderão ser
+        compartilhadas quando houver requerimento de autoridades judiciais ou
+        governamentais competentes para fins de investigações pessoais conduzidas
+        por elas, mesmo que não exista uma ordem judicial, por exemplo, mas sem
+        limitar-se a: quando tratar-se de investigação de caráter penal ou a violação
+        de direitos do autor, ressalvadas as hipóteses de sigilo de informações
+        determinadas por leis em vigor, ou ainda, comunicar informações quando haja
+        motivos suficientes para considerar que a atividade de um usuário seja
+        suspeita de tentar ou de cometer um delito ou tentar prejudicar outras
+        pessoas. Este direito será utilizado pelo Limos App a sua inteira discrição
+        quando o considere apropriado ou necessário para manter a integridade e a
+        segurança da comunidade e de seus usuários.\n\n
+        O Limos App possui links de acesso para outros sites e que não estão cobertos
+        por esta política. Assim, verifique a política de privacidade desses sites, tendo
+        em vista que suas informações serão administradas de acordo com a política
+        de cada um deles e que podem diferenciar das nossas.\n\n
+        Todos os dados pessoais informados ao nosso aplicativo são armazenados em
+        um banco de dados reservado e com acesso restrito à pessoas habilitadas, que
+        são obrigadas, por contrato, a manter a confidencialidade das informações e
+        não utilizá-las inadequadamente.\n\n
+        Reservamo-nos o direito de alterar a política a qualquer momento.
+        A competência para o conhecimento, processamento ou julgamento de
+        qualquer feito judicial, administrativo ou extra-judicial será o foro da
+        comarca de Indaiatuba, em São Paulo, Brasil, renunciando a parte contrária a
+        qualquer outro, por mais privilegiado seja.\n\n
+        Se você ainda possui alguma dúvida sobre a forma de utilização de nosso
+        produto ou sobre nossa política de privacidade e seus direitos e deveres perante o LimosApp, gentileza enviar um e-mail para applimos@gmail.com, ficaremos felizes com o seu contato.
+    </string>
+</resources>
+

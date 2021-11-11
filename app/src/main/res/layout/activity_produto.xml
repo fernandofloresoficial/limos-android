@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.limosapp.limos.ProdutoActivity">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/imgFotoProduto"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:backgroundImage="@drawable/imgprodutogrande"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtProduto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/baloo_da"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Baião de dois"
+        android:textColor="@color/vermelholimos"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFotoProduto"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txtServe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="Serve 4 pesoa(s)"
+        android:textColor="@color/cinzaescuro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtProduto"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/txtServe"
+        app:layout_constraintTop_toBottomOf="@+id/txtProduto"
+        fresco:srcCompat="@drawable/clock"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtTempo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="40-45min"
+        android:textColor="@color/cinzaescuro"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/txtProduto"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txtDescProduto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Detalhes do produto"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTempo"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnItensAdicionaisCarrinho"
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/botalogincinza"
+        android:text="@string/itensadicionais"
+        android:textAllCaps="false"
+        android:textColor="@color/cinzaescuro"
+        app:layout_constraintBottom_toTopOf="@+id/imgMais"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescProduto" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/imgTemObservacoes"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/btnObservacoesCarrinho"
+        app:layout_constraintEnd_toEndOf="@+id/btnObservacoesCarrinho"
+        app:srcCompat="@drawable/imgconfirmado"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnObservacoesCarrinho"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/botalogincinza"
+        android:backgroundTint="@color/cinzaescuro"
+        android:text="@string/observacoes"
+        android:textAllCaps="false"
+        android:textColor="@color/branco"
+        app:layout_constraintBottom_toTopOf="@+id/imgMais"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescProduto"
+        tools:ignore="UnusedAttribute" />
+
+    <Button
+        android:id="@+id/btnIncluirObservacoes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/botaologin"
+        android:text="@string/adicionarcarrinho"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtQuantidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="sans-serif"
+        android:text="1"
+        android:textColor="@color/cinzaescuro"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgMais"
+        app:layout_constraintStart_toEndOf="@+id/imgMenos"
+        app:layout_constraintTop_toTopOf="@+id/imgMais"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txtPrecoTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif"
+        android:text="R$0,00"
+        android:textColor="@color/cinzasuperescuro"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnIncluirObservacoes"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imgMais"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/imgsomar"
+        app:layout_constraintBottom_toTopOf="@+id/btnIncluirObservacoes"
+        app:layout_constraintStart_toEndOf="@+id/txtQuantidade"
+        app:srcCompat="@drawable/imgsomar"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imgMenos"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnIncluirObservacoes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/imgsubtrair"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imgVoltar"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        fresco:srcCompat="@drawable/ic_voltar"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtPreco"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif"
+        android:text="R$49,90"
+        android:textColor="@color/cinzaescuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtTempo"
+        app:layout_constraintTop_toBottomOf="@+id/txtProduto"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imgTemAdicionais"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/btnItensAdicionaisCarrinho"
+        app:layout_constraintEnd_toEndOf="@+id/btnItensAdicionaisCarrinho"
+        fresco:srcCompat="@drawable/imgconfirmado"
+        tools:ignore="ContentDescription" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imgCapa"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:roundedCornerRadius="8dp" />
+
+        <ImageView
+            android:id="@+id/imgFavorito"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="@+id/imgCapa"
+            app:layout_constraintTop_toTopOf="@+id/imgCapa"
+            app:srcCompat="@drawable/favoritooff" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imgPerfil"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@+id/txtAvaliacoes"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtEndereco"
+            fresco:roundAsCircle="true" />
+
+        <TextView
+            android:id="@+id/txtCozinha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="sans-serif"
+            android:text="Hamburgueria . 40-45min . 1,9km"
+            android:textColor="@color/cinzaescuro"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/imgPerfil"
+            app:layout_constraintTop_toBottomOf="@+id/txtEndereco" />
+
+        <TextView
+            android:id="@+id/txtAvaliacoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="1050 avaliações"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/rtbAvaliar"
+            app:layout_constraintTop_toBottomOf="@+id/txtCozinha" />
+
+        <RatingBar
+            android:id="@+id/rtbAvaliar"
+            style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:numStars="5"
+            android:progressTint="@color/vermelholimos"
+            android:rating="3.5"
+            android:theme="@style/AppTheme2"
+            app:layout_constraintStart_toEndOf="@+id/imgPerfil"
+            app:layout_constraintTop_toBottomOf="@+id/txtCozinha" />
+
+        <TextView
+            android:id="@+id/txtEndereco"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/baloo_da"
+            android:gravity="bottom"
+            android:text="The Cleaver"
+            android:textColor="@color/cinzasuperescuro"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgPerfil"
+            app:layout_constraintTop_toBottomOf="@+id/imgCapa" />
+
+        <TextView
+            android:id="@+id/txtAbertoFechado"
+            android:layout_width="100dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/cinzaescuro"
+            android:fontFamily="sans-serif"
+            android:text="Carregando"
+            android:textAlignment="center"
+            android:textColor="@color/branco"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imgCapa" />
+
+        <TextView
+            android:id="@+id/txtEntrega"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/contorno"
+            android:fontFamily="sans-serif"
+            android:padding="3dp"
+            android:text="Entrega: R$6,00"
+            android:textColor="@color/cinzaescuro"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgPerfil"
+            app:layout_constraintTop_toBottomOf="@+id/rtbAvaliar" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
+
+
+

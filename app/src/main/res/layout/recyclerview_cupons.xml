@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/crvCupons"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:visibility="visible"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="dom"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/chkDom"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/chkDom"
+            app:layout_constraintTop_toBottomOf="@+id/chkDom" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="qui"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/chkQui"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/chkQui"
+            app:layout_constraintTop_toBottomOf="@+id/chkQui" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="ter"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/chkTer"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/chkTer"
+            app:layout_constraintTop_toBottomOf="@+id/chkTer" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="qua"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/chkQua"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/chkQua"
+            app:layout_constraintTop_toBottomOf="@+id/chkQua" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="sab"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/chkSab"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/chkSab"
+            app:layout_constraintTop_toBottomOf="@+id/chkSab" />
+
+        <TextView
+            android:id="@+id/txtTituloPedido"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="sex"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/chkSex"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/chkSex"
+            app:layout_constraintTop_toBottomOf="@+id/chkSex" />
+
+        <CheckBox
+            android:id="@+id/chkDom"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="50dp"
+            android:button="@drawable/my_checkbox"
+            android:checked="false"
+            android:enabled="false"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/chkSab"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/chkSab"
+            app:layout_constraintTop_toTopOf="@+id/chkSab" />
+
+        <CheckBox
+            android:id="@+id/chkSab"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:button="@drawable/my_checkbox"
+            android:checked="false"
+            android:enabled="false"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/chkSex"
+            app:layout_constraintEnd_toStartOf="@+id/chkDom"
+            app:layout_constraintStart_toEndOf="@+id/chkSex"
+            app:layout_constraintTop_toTopOf="@+id/chkSex" />
+
+        <CheckBox
+            android:id="@+id/chkSex"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:button="@drawable/my_checkbox"
+            android:checked="false"
+            android:enabled="false"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/chkQui"
+            app:layout_constraintEnd_toStartOf="@+id/chkSab"
+            app:layout_constraintStart_toEndOf="@+id/chkQui"
+            app:layout_constraintTop_toTopOf="@+id/chkQui" />
+
+        <CheckBox
+            android:id="@+id/chkQui"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:button="@drawable/my_checkbox"
+            android:checked="false"
+            android:enabled="false"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/chkQua"
+            app:layout_constraintEnd_toStartOf="@+id/chkSex"
+            app:layout_constraintStart_toEndOf="@+id/chkQua"
+            app:layout_constraintTop_toTopOf="@+id/chkQua" />
+
+        <CheckBox
+            android:id="@+id/chkQua"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:button="@drawable/my_checkbox"
+            android:checked="false"
+            android:enabled="false"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/chkTer"
+            app:layout_constraintEnd_toStartOf="@+id/chkQui"
+            app:layout_constraintStart_toEndOf="@+id/chkTer"
+            app:layout_constraintTop_toTopOf="@+id/chkTer" />
+
+        <CheckBox
+            android:id="@+id/chkTer"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:button="@drawable/my_checkbox"
+            android:checked="false"
+            android:enabled="false"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/chkSeg"
+            app:layout_constraintEnd_toStartOf="@+id/chkQua"
+            app:layout_constraintStart_toEndOf="@+id/chkSeg"
+            app:layout_constraintTop_toTopOf="@+id/chkSeg" />
+
+        <CheckBox
+            android:id="@+id/chkSeg"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:button="@drawable/my_checkbox"
+            android:checked="false"
+            android:enabled="false"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toStartOf="@+id/chkTer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtCupomValidade" />
+
+        <TextView
+            android:id="@+id/txtCupomDesconto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="sans-serif"
+            android:text="50%"
+            android:textAlignment="center"
+            android:textColor="@color/cinzaescuro"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtCupomValidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="sans-serif"
+            android:text="Validade: 01/01/19"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtCupomDesconto" />
+
+        <Button
+            android:id="@+id/btnResgatarCupom"
+            android:layout_width="155dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/botaologin"
+            android:fontFamily="sans-serif"
+            android:text="Resgatar"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="seg"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/chkSeg"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/chkSeg"
+            app:layout_constraintTop_toBottomOf="@+id/chkSeg" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

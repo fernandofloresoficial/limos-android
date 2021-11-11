@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnuPerfil" android:title="Perfil" android:icon="@drawable/imgmenuperfil"></item>
+    <item android:id="@+id/mnuExtrato" android:title="Extrato de cashback" android:icon="@drawable/imgextratocashback"></item>
+    <item android:id="@+id/mnuEnderecos" android:title="Meus endereços" android:icon="@drawable/imgmenuenderecos"></item>
+    <item android:id="@+id/mnuCupons" android:title="Meus cupons" android:icon="@drawable/imgmeuscupons"></item>
+    <item
+        android:id="@+id/mnuPedidos"
+        android:icon="@drawable/imgmenupedidos"
+        android:title="Meus pedidos"></item>
+    <item android:id="@+id/mnuIndicar" android:title="Indicar restaurantes" android:icon="@drawable/imgmenuindicar"></item>
+    <item android:id="@+id/mnuSobre" android:title="Sobre" android:icon="@drawable/imgmenusobre"></item>
+    <item android:id="@+id/mnuLogout" android:title="Sair da conta" android:icon="@drawable/imgmenusair"></item>
+</menu>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.limosapp.limos">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" /> -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- <uses-permission android:name="android.permission.LOCATION_HARDWARE" /> -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_limos_foreground"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_limos_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".LoginEmailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".LoginPreCadastroActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".CardapioCategoriasActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CardapioProdutosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CarrinhoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CashbackExtratoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CheckinTutorialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CuponsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CuponsResgatadosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EnderecoCadastradoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EnderecoTrocarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EnderecoNovoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".FiltrarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IndicarRestauranteActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ListaRestaurantesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListaShoppingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginTelActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PerfilActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ProdutoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProdutoAdicionaisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProdutoObservacoesActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".RestaurantesDetalhesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RestaurantesMaisDetalhesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SemInternetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EnderecoBuscarActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".EnderecoCEPActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".PedidosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PedidosDetalhesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NotificacaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RestaurantesAvaliacoesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProdutoResumoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProdutoOpcionaisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ConcluirActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SobreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TermosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrivacidadeActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

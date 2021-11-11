@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="80dp"
+    android:layout_height="90dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/imgFotoPerfil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="false"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        fresco:roundAsCircle="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/imgDesconto"
+        android:layout_width="18dp"
+        android:layout_height="16dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="12dp"
+        android:adjustViewBounds="false"
+        android:background="@color/vermelholimos"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/txtFantasia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:roundedCornerRadius="5dp"
+        />
+
+    <TextView
+        android:id="@+id/txtFantasia"
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Casa da Esfiha..."
+        android:textAlignment="center"
+        android:textColor="@color/cinzaescuro"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFotoPerfil" />
+
+    <TextView
+        android:id="@+id/txtDesconto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/averia_libre"
+        android:text="15%"
+        android:textColor="@color/branco"
+        android:textSize="8dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgDesconto"
+        app:layout_constraintEnd_toEndOf="@+id/imgDesconto"
+        app:layout_constraintStart_toStartOf="@+id/imgDesconto"
+        app:layout_constraintTop_toTopOf="@+id/imgDesconto" />
+</android.support.constraint.ConstraintLayout>

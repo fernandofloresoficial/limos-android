@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3d3d3d</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#42BA66</color>
+    <color name="vermelholimos">#d32f4a</color>
+    <color name="vermelholimosescuro">#931125</color>
+    <color name="vermelholimosmedio">#d43651</color>
+    <color name="cinza">#A9A9A9</color>
+    <color name="cinzaclaro">#e1e1e1</color>
+    <color name="cinzasuperclaro">#f9f9f9</color>
+    <color name="cinzaescuro">#4C4C50</color>
+    <color name="cinzasuperescuro">#2f2f33</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="preto">#000000</color>
+    <color name="amarelo">#ffd900</color>
+    <color name="quasebranco">#F7F4F4</color>
+</resources>

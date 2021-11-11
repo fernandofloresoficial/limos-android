@@ -1,0 +1,74 @@
+{
+  "project_info": {
+    "project_number": "887981520725",
+    "firebase_url": "https://limos-app.firebaseio.com",
+    "project_id": "limos-app",
+    "storage_bucket": "limos-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887981520725:android:94d2b3e682c4ec35",
+        "android_client_info": {
+          "package_name": "br.com.limosapp.limos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887981520725-6871sv2mfphju4ctal42s3rn0fsofial.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.limosapp.limos",
+            "certificate_hash": "c9d2d50117db2160df318c47d79c84fe8bc61408"
+          }
+        },
+        {
+          "client_id": "887981520725-tvqutc5vr0q3vl9utdoaaqr1dptfd2rt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.limosapp.limos",
+            "certificate_hash": "e2bdc2b2cc3b665c78fd0e6da4d23e790421fc7d"
+          }
+        },
+        {
+          "client_id": "887981520725-ea1jckojr2u02ptrjddr1pcbn2h1gp8k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.limosapp.limos",
+            "certificate_hash": "3b8ebd15b00f04d98884dcbc42cafd933669c838"
+          }
+        },
+        {
+          "client_id": "887981520725-d4okvrpfck990jevm9a45v6on8j9pf9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCytthK64HZSxoDNxbfAgUe6U01-MqPcss"
+        },
+        {
+          "current_key": "AIzaSyBKYTjJq9gCvwZsrPdPmGgAy6m33bwpiKk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887981520725-d4okvrpfck990jevm9a45v6on8j9pf9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

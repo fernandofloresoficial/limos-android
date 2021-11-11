@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bottom_home"
+        android:title="Home"
+        android:icon="@drawable/imgbottomhome" />
+
+    <item android:id="@+id/bottom_fav"
+        android:title="Favoritos"
+        android:icon="@drawable/imgbottomsalvos" />
+
+    <!---<item android:id="@+id/bottom_filtrar"
+        android:title="Filtrar"
+        android:icon="@drawable/imgbottomfiltrar" />-->
+
+
+
+</menu>

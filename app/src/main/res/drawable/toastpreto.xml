@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="40dp"/>
+            <stroke android:color="@color/preto"
+                android:width="1dp"/>
+            <solid android:color="@color/preto"/>
+        </shape>
+    </item>
+    <item>
+        <selector android:exitFadeDuration="400" android:enterFadeDuration="400">
+            <item  android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <!--solid android:color="@drawable/control_highlight"/-->
+                    <corners android:radius="40dp"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>
